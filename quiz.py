@@ -1,5 +1,6 @@
 import random
-import os 
+import os
+
 vragen=[
     {
         "vak":"programmeren",
@@ -41,7 +42,8 @@ def highscore_laden():
             inhoud=bestand.read().strip()
             if inhoud!="":
                 return int(inhoud)            
-    return 0
+    return 0        
+
 
 # Highscore opslaan
 def highscore_opslaan(score):
@@ -68,7 +70,10 @@ def quiz():
         for i in range(4):
             print(f"{i+1}. {vraag['antwoorden'][i]}")
         user_input = input("Kies het juiste antwoord (1-4): ")
-        if vraag['antwoorden'][int(user_input)-1] == vraag['goed']:
+        if user_input not in ["1", "2", "3", "4"]:
+            print("Ongeldige invoer. Kies een nummer tussen 1 en 4.")
+            continue
+        elif vraag['antwoorden'][int(user_input)-1] == vraag['goed']:
             print("Correct!")
             score += 1
         else:
