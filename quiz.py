@@ -32,6 +32,12 @@ vragen=[
         "antwoorden":["6.000 tot 7.000 Euro per maand", "3.470 tot 5.760 Euro per maand", "2.761 tot 3.4561 Euro per maand", "3.394 tot € 3.693 Euro per maand"],
         "goed":"3.394 tot € 3.693 Euro per maand"
     },
+    {
+        "vak":"programmeren",
+        "vraag":"Wat gebeurt er in Python wanneer je de operatoren // en % gebruikt om twee getallen te delen?",
+        "antwoorden":["// geeft de rest van de deling en % geeft het resultaat als een kommagetal", " // rondt de uitkomst altijd af naar het dichtstbijzijnde gehele getal en % vermenigvuldigt de twee getallen", "// geeft het quotiënt afgerond naar beneden en % geeft de rest van de deling", "// deelt de getallen zonder de rest te verwijderen en % geeft het quotiënt afgerond naar beneden"],
+        "goed":"// geeft het quotiënt afgerond naar beneden, terwijl % de rest van de deling teruggeeft"
+    }
 ]
 
 
