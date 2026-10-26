@@ -5,7 +5,7 @@ vragen=[
     {
         "vak":"programmeren",
         "vraag":"Wat is Python?",
-        "antwoorden":["Programmeertaal","Soort slang","Scripts taal","Framework"],
+        "antwoorden":["Programmeertaal", "Soort slang", "Scripts taal", "Framework"],
         "goed":"Programmeertaal"
     },
     {
@@ -16,27 +16,88 @@ vragen=[
     },
     {
         "vak":"programmeren",
-        "vraag":"Hoeveel verdient een Java developer gemiddeld per maand?",
-        "antwoorden":["1.200 tot 1.500 Euro per maand", "4.200 tot 5.140 per maand", "4.000 tot 5.000 per maand", "9.000 tot 10.000 per maand"],
-        "goed":"4.200 tot 5.140 per maand"
-    },
-    {
-        "vak":"programmeren",
         "vraag":"Waarom wordt 'Hello World' gebruikt aan de begin van een code?",
         "antwoorden":["Om 'Hallo' tegen de computer te zeggen", "Om de computer jou te laten groeten","Om simpelweg te testen en controleren of het programma juist werkt", "Zodat je een computer laat weten dat je gaat coderen"],
         "goed":"Om simpelweg te testen en controleren of het programma juist werkt"
-    },
-    {
-        "vak":"programmeren",
-        "vraag":"Hoeveel verdient een web developer?",
-        "antwoorden":["6.000 tot 7.000 Euro per maand", "3.470 tot 5.760 Euro per maand", "2.761 tot 3.4561 Euro per maand", "3.394 tot € 3.693 Euro per maand"],
-        "goed":"3.394 tot € 3.693 Euro per maand"
+   
     },
     {
         "vak":"programmeren",
         "vraag":"Wat gebeurt er in Python wanneer je de operatoren // en % gebruikt om twee getallen te delen?",
         "antwoorden":["// geeft de rest van de deling en % geeft het resultaat als een kommagetal", " // rondt de uitkomst altijd af naar het dichtstbijzijnde gehele getal en % vermenigvuldigt de twee getallen", "// geeft het quotiënt afgerond naar beneden en % geeft de rest van de deling", "// deelt de getallen zonder de rest te verwijderen en % geeft het quotiënt afgerond naar beneden"],
         "goed":"// geeft het quotiënt afgerond naar beneden, terwijl % de rest van de deling teruggeeft"
+    },
+    {
+        "vak":"programmeren",
+        "vraag":"Hoe maak je een lijst in Python?",
+        "antwoorden":["kleuren = [rood, groen, blauw]", "kleuren = (rood, groen, blauw)", "kleuren = {rood, groen, blauw}", "kleuren = [rood, groen, blauw]"],
+        "goed":"kleuren = [rood, groen, blauw]"
+    },
+    {
+        "vak":"programmeren",
+        "vraag":"Welke teken gebruik je voor een commentaarregel in Python",
+        "antwoorden":["//", "#", "**", "/*"],
+        "goed":"#"
+    },
+    {
+        "vak":"programmeren",
+        "vraag":"Hoe maak je een functie met de naam groet?",
+        "antwoorden":["def groet():", "function groet():", "groet():", "print('groet')"],
+        "goed":"def groet():"
+    },
+    {
+        "vak":"programmeren",
+        "vraag":"Welke datatype gebrruikt Python voor True en False?",
+        "antwoorden":["str", "bool", "int", "list"],
+        "goed":"bool"
+    },
+    {
+        "vak":"programmeren",
+        "vraag":"Wat geeft len('Python') terug?",
+        "antwoorden":["5", "6", "7", "Python"],
+        "goed":"6"
+    },
+    {
+        "vak":"programmeren",
+        "vraag":"Welke tekenpaar controleert of twee waarden gelijk zijn?",
+        "antwoorden":["==", "=", "!=", "<>"],
+        "goed":"=="
+    },
+    {
+        "vak":"programmeren",
+        "vraag":"Wat is de uitkomst van 10 % 3?",
+        "antwoorden":["1", "10", "3", "0"],
+        "goed":"1"
+    },
+    {
+        "vak":"programmeren",
+        "vraag":"Welke woordt gebruik je om een voorwaarde te beginnen?",
+        "antwoorden":["if", "for", "while", "def"],
+        "goed":"if"
+    },
+    {
+        "vak":"programmeren", 
+         "vraag":"Hoe controleer je of getal groter is dan 67?",
+        "antwoorden":["getal => 10", "getal > 10", "getal < 10", "getal = 10"],
+        "goed":"getal > 10"
+    },
+    {
+        "vak":"programmeren",
+        "vraag":"Welke functie zet tekst om naar kleine letters?",
+        "antwoorden":["lower()", "upper()", "small()", "str()"],
+        "goed":"lower()"
+    },
+    {
+        "vak":"programmeren",
+        "vraag":"Hoe begin je een for-lus die 5 keer herhaalt?",
+        "antwoorden":["foreach i in 5", "for i in range(5):", "for i in 5:", " for (i = 0; i < 5; i++)"],
+        "goed":"for i in range(5):"
+    },
+    {
+        "vak":"programmeren",
+        "vraag": "Wat is de uitkomst van Python[::-1]?",
+        "antwoorden":["nohtyP", "Python", "Een foutmelding", "n"],
+        "goed":"nohtyP"
     }
 ]
 
